@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-size: 24px;
+}
+
+.leftbox {
+    background-color: rgb(146, 159, 32);
+    float: left;
+    width: 100%;
+}
+
+.rightbox {
+    background-color: rgb(28, 124, 141);
+    float: left;
+    width: 100%;
+}
+
+/* Desktop */
+@media(min-width:780px) {
+    body {
+        background-color: rgb(6, 105, 62);
+    }
+
+    .leftbox {
+        float: left;
+        width: 50%;
+    }
+
+    .rightbox {
+        float: left;
+        width: 50%;
+    }
+}
+
+/* Tablet */
+@media(max-width: 780px) and (min-width: 480px) {
+    body {
+        background-color: rgb(28, 19, 89);
+    }
+    .leftbox {
+        float: left;
+        width: 50%;
+    }
+
+    .rightbox {
+        float: left;
+        width: 50%;
+    }
+}
+
+/* Mobile */
+@media(max-width:480px) {
+    body{
+        background-color: rgb(55, 3, 3);
+    }
+}

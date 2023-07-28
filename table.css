@@ -1,0 +1,30 @@
+h1 {
+    margin-left: 32%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: fit-content;
+    padding: 8px;
+    background-color: #c55586;
+    border: solid 4px black;
+    border-radius: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #ffffff;
+    width: 200px; 
+    height: 300px;
+}
+
+th,
+td,
+tr {
+    border: 8px solid black;
+    padding: 10px;
+    vertical-align: text-top;
+}
